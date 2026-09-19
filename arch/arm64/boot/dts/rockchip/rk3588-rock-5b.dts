@@ -549,8 +549,8 @@
 	polling-delay-passive = <2000>;
 	trips {
 		fan_trip: fan-trip {
-			temperature = <50000>;
-			hysteresis = <5000>;
+			temperature = <60000>;
+			hysteresis = <8000>;
 			type = "active";
 		};
 	};
